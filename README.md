@@ -1,6 +1,29 @@
-# Vue 3 + TypeScript + Vite
+# Vue - JSON Placeholder
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### Prérequis
+> - [Docker](https://www.docker.com/get-started)
+> - [Docker Compose](https://docs.docker.com/compose/install/)
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
-# vuejs-cc2
+### Installation
+1. Clonez le projet sur votre machine :
+``` bash
+git clone https://github.com/johan-mickael-myges/vuejs-cc2.git
+```
+
+2. Rendez-vous dans le dossier du projet :
+``` bash
+cd vuejs-cc2
+```
+
+### Lancer le projet
+
+1. Sur le terminal, exécutez la commande suivante :
+``` bash
+docker compose up
+```
+
+2. Ouvrez votre navigateur et rendez-vous à l'adresse suivante : [http://localhost:3000](http://localhost:3000)
+
+
+### Auteur
+- [RAKOTONIAINA Johan Mickael](https://github.com/johan-mickael-myges) - Groupe 17
