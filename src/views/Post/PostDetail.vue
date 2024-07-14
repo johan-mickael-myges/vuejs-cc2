@@ -14,7 +14,7 @@
       {{ post.body }}
     </v-card-text>
 
-    <v-card-actions>
+    <v-card-actions v-if="comments.length === 0">
       <v-btn
           color="primary"
           @click="fetchComments"

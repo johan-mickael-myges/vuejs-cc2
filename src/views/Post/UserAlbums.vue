@@ -1,5 +1,5 @@
 <template>
-  <AlbumsList v-if="!loading" :albums="albums" title="Album" />
+  <AlbumsList v-if="!loading && albums.length > 0" :albums="albums" title="Album" />
 </template>
 
 <script lang="ts">

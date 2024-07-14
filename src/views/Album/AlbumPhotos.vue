@@ -1,5 +1,5 @@
 <template>
-    <PhotosList v-if="!loading" :photos="photos" title="Photos" />
+    <PhotosList v-if="!loading && photos.length > 0" :photos="photos" title="Photos" />
 </template>
 
 <script lang="ts">

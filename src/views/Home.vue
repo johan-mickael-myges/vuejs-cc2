@@ -1,6 +1,6 @@
 <template>
   <DataTable
-    v-if="!loading"
+    v-if="!loading && users.length > 0"
     :columns="columns"
     :data="users"
     :actions="actions"
